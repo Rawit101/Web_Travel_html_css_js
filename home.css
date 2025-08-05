@@ -25,6 +25,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+
+
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+
 }
 
 .home {
@@ -42,11 +52,39 @@ body {
 }
 
 .center_text h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: #ffffff;
 }
 
 .center_text p {
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 20px;
     color: #ffffff;
+}
+
+input[type="text"] {
+    margin-top: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+.acc {
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #00c753;
+    border: none;
+}
+
+.get-started {
+    margin-top: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #00c753;
+    border: none;
 }
