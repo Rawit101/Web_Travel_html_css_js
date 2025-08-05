@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.background {
+    background-image: linear-gradient(rgba(187, 187, 187, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg_logo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .header {
@@ -14,4 +30,23 @@
 .home {
     gap: 40px;
     display: flex;
+}
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.center_text {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.center_text h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.center_text p {
+    font-size: 15px;
+    color: #ffffff;
 }
