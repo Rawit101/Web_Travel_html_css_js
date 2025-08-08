@@ -141,6 +141,11 @@ input[type="text"]:focus {
     margin-top: 100px;
 }
 
+.card-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
 .card-item {
     width: 300px;
     height: 250px;
@@ -191,4 +196,25 @@ input[type="text"]:focus {
     font-size: 0.8rem;
     color: #666666;
     margin-top: 0.7rem;
+}
+
+.aboutus {
+    margin-top: 150px;
+    margin-left: 7rem;
+}
+
+.box {
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.box-item {
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
